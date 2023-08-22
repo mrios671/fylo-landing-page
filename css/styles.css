@@ -74,11 +74,15 @@ button {
     border-radius: 3px;
     border-color:#2F65F8;
 }
+section.container{
+    background-image: url("images/bg-curve-desktop.svg");
+    background-color: #F8F8FE;
+}
 .container.info {
     min-height: 60vh;
 }
 .white-space {
-
+    margin: 80px;
 }
 p.info.one{
     min-height: 48px;
@@ -97,5 +101,41 @@ p.info.two{
 }
 h2.py-20 {
     min-width: 660px;
+}
+.how-it-works{
+    color: #3DA08F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 50px;
+}
+.comment {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.05);
+    max-height: 215px;
+    max-width: 356px;
+}
+comment p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 34px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    flex-shrink: 0;
+}
+aside ul{
+    font-size: 11px;
+}
+aside li.main {
+    font-family: 'Raleway', sans-serif;
+    color: inherit;
+    font-size: 11px;
+    font-weight: 700;
 }
 
